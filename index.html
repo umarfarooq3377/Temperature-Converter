@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temp Converter</title>
+</head>
+
+<body>
+    <div class="temp-block">
+        <div class="block-head">
+            <p>Temperature</p>
+        </div>
+        <div class="CTF">
+            <div class="celsius">
+                <input type="number" name="numC" oninput="CtoF(this.value)" id="numC">
+                <label for="numC">Celsius</label>
+            </div>
+            <div class="fahrenheit">
+                <input type="number" name="numF" oninput="FtoC(this.value)" id="numF">
+                <label for="numF">fahrenheit</label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

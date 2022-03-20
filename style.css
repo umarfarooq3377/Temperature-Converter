@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.temp-block {
+  border: 1px solid rgba(196, 196, 196, 0.753);
+  padding: 4rem;
+  border-radius: 0.3rem;
+}
+.block-head {
+  border: 1px solid rgba(196, 196, 196, 0.753);
+  background-color: rgba(240, 240, 240, 0.849);
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+}
+.CTF {
+  display: flex;
+  gap: 2rem;
+}
+.celsius,
+.fahrenheit {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  background-color: rgba(240, 240, 240, 0.849);
+  border-left: 1px solid rgba(196, 196, 196, 0.753);
+  border-bottom: 1px solid rgba(196, 196, 196, 0.753);
+  border-right: 1px solid rgba(196, 196, 196, 0.753);
+  padding: 0.7rem;
+}
+input {
+  border: 1px solid rgba(196, 196, 196, 0.753);
+  padding: 0.7rem;
+}
+
+input:focus {
+  outline: none;
+}
